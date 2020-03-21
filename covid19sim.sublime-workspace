@@ -1,0 +1,774 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"OsS",
+				"OsString\t  pub struct OsString"
+			],
+			[
+				"char",
+				"characters"
+			],
+			[
+				"or",
+				"or_insert(${1:default: V})\t  pub fn or_insert(self, default: V) -> &'a mut V"
+			],
+			[
+				"tota",
+				"total_hashed_bytes\t  total_hashed_bytes : u64"
+			],
+			[
+				"re",
+				"num_hashes_reused\t  num_hashes_reused: u64"
+			],
+			[
+				"from",
+				"from_args"
+			],
+			[
+				"Res",
+				"CliResult"
+			],
+			[
+				"by",
+				"bytes_per_second\t  let bytes_per_second = (filesize as f32) / (timediff.as_millis() as f32) * 1000.;"
+			],
+			[
+				"File",
+				"FileInfo"
+			],
+			[
+				"pr",
+				"println!\t  macro_rules! println {"
+			],
+			[
+				"form",
+				"format!\t  macro_rules! format {"
+			],
+			[
+				"ass",
+				"assert_eq\tassert_eq!(…, …)"
+			],
+			[
+				"fr",
+				"from_secs(${1:secs: u64})\t  pub const fn from_secs(secs: u64) -> Duration"
+			],
+			[
+				"to",
+				"to_owned()\t  fn to_owned(&self) -> String"
+			],
+			[
+				"mod",
+				"modified"
+			],
+			[
+				"bo",
+				"b_or_c\t  let b_or_c = bc.next().ok_or(())?;"
+			],
+			[
+				"path",
+				"pathchars\t  let mut pathchars = path.chars();"
+			],
+			[
+				"Path",
+				"PathBuf\t  pub struct PathBuf"
+			],
+			[
+				"Un",
+				"UNIX_EPOCH\t  pub const UNIX_EPOCH: SystemTime = SystemTime(time::UNIX_EPOCH);"
+			],
+			[
+				"str",
+				"string\t  C:\\Users\\daniel\\.multirust\\toolchains\\nightly-x86_64-pc-windows-msvc\\lib\\rustlib\\src\\rust\\src\\liballoc\\string.rs"
+			],
+			[
+				"map",
+				"map_err(${1:op: O})\t  pub fn map_err<F, O: FnOnce(E) -> F>(self, op: O) -> Result<T,F>"
+			],
+			[
+				"Try",
+				"TryFrom\t  pub trait TryFrom<T>: Sized"
+			],
+			[
+				"file",
+				"fileinfo\t  |fileinfo|"
+			],
+			[
+				"un",
+				"unwrap_or(${1:def: T})\t  pub fn unwrap_or(self, def: T) -> T"
+			],
+			[
+				"t",
+				"to_owned()\t  fn to_owned(&self) -> String"
+			],
+			[
+				"println",
+				"println!\t  macro_rules! println {"
+			],
+			[
+				"tot",
+				"total_bytes"
+			],
+			[
+				"progre",
+				"progress_channel"
+			],
+			[
+				"find",
+				"find_files"
+			],
+			[
+				"Cli",
+				"CliResult"
+			],
+			[
+				"Buf",
+				"PathBuf"
+			],
+			[
+				"walk",
+				"walkdir"
+			],
+			[
+				"prog",
+				"progress_every"
+			],
+			[
+				"load",
+				"load_from"
+			],
+			[
+				"H",
+				"HashMap"
+			],
+			[
+				"has",
+				"hash"
+			],
+			[
+				"into",
+				"into_iter"
+			],
+			[
+				"fo",
+				"follow_links"
+			],
+			[
+				"pl",
+				"plt_size"
+			],
+			[
+				"ser",
+				"serviceID"
+			],
+			[
+				"serc",
+				"search"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "covid19sim/covid19sim.py",
+			"settings":
+			{
+				"buffer_size": 152,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": ".flake8",
+			"settings":
+			{
+				"buffer_size": 28,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 1799,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					""
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Test"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Bench"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/Rust/Rust.sublime-build",
+					""
+				],
+				[
+					"Packages/Rust/Rust.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					""
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Automatic"
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Run (with args)..."
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Check"
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Test"
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Test (with args)..."
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Bench"
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Document"
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Clippy"
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Script"
+				]
+			],
+			[
+				"Packages/Rust/Cargo.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 152.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"sspy",
+				"Set Syntax: Python"
+			],
+			[
+				"ssp",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"pci",
+				"Package Control: Install Package"
+			],
+			[
+				"pcin",
+				"Package Control: Install Package"
+			],
+			[
+				"ww",
+				"Word Wrap: Toggle"
+			],
+			[
+				"sc#",
+				"Set Syntax: C#"
+			],
+			[
+				"fmt",
+				"LSP: Format Document"
+			],
+			[
+				"fm",
+				"LSP: Format Document"
+			],
+			[
+				"show",
+				"LSP: Show Diagnostics"
+			],
+			[
+				"syntaxche",
+				"Rust: Toggle Syntax Checking"
+			],
+			[
+				"check",
+				"Rust: Toggle Syntax Checking"
+			],
+			[
+				"enl",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"dis",
+				"LSP: Disable Language Server in Project"
+			],
+			[
+				"enab",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"enls",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"disl",
+				"LSP: Disable Language Server in Project"
+			],
+			[
+				"en",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"di",
+				"LSP: Disable Language Server in Project"
+			],
+			[
+				"rls",
+				"Rust: List All Messages"
+			],
+			[
+				"e",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"lspdiu",
+				"LSP: Disable Language Server in Project"
+			],
+			[
+				"lspen",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"lspdis",
+				"LSP: Disable Language Server in Project"
+			],
+			[
+				"rustenhan",
+				"Rust: Toggle Syntax Checking"
+			],
+			[
+				"editr",
+				"Project: Edit Project"
+			],
+			[
+				"lape",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"sspla",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"ssmar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"pretty",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"pcins",
+				"Package Control: Install Package"
+			],
+			[
+				"ssc++",
+				"Set Syntax: C++"
+			],
+			[
+				"pcinst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 666.0
+	},
+	"console":
+	{
+		"height": 296.0,
+		"history":
+		[
+			"hex(788)",
+			"hex(164)",
+			"(2<<4)+5",
+			"2<<4+5",
+			"2<<4"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/daniel/Documents/Code/covid19sim",
+		"/C/Users/daniel/Documents/Code/covid19sim/covid19sim"
+	],
+	"file_history":
+	[
+		"/C/Users/daniel/Documents/Code/PxKeystrokesForScreencasts/PxKeystrokesUi/Settings.Designer.cs",
+		"/C/Users/daniel/Documents/Code/PxKeystrokesForScreencasts/PxKeystrokesWPF/SettingsStore.cs",
+		"/D/LINUXBACKUP/backup.sh",
+		"/C/Users/daniel/Documents/Code/sl/.env",
+		"/C/Users/daniel/Drive/Tools/KeyboardLayoutsWindows/README.md",
+		"//JUPITER/Users/Public/9ifKTCwyLxXbJhUt8wa9T5g_AUZAm4GkNBubNAw2WhY=",
+		"//JUPITER/Users/Public/accessed_files6",
+		"//JUPITER/Users/Public/accessed_files2 - Kopie",
+		"/C/Users/daniel/Documents/Code/accesstest/src/main.rs",
+		"//JUPITER/Users/Public/accessed_files",
+		"//JUPITER/Users/Public/accessed_files2",
+		"/C/Users/daniel/Downloads/DuplRestTest/duplicati-i732347c0dc5941398a49181f6f224d28.dindex/vol/duplicati-b29ee3d732af4465699651c0ff54d30d1.dblock.zip.aes",
+		"/C/Users/daniel/Downloads/DuplRestTest/duplicati-bc0120b8068954130948c65a4cc73f63c.dblock/i63_g-f7IsL0aIhRv-LuSqC7uWIQYVTtWb1Cfoq7Qyc=",
+		"/C/Users/daniel/Downloads/DuplRestTest/duplicati-b29ee3d732af4465699651c0ff54d30d1.dblock/_jZ4zOf_U4u24B7pn417OnpemCtQ9jVK7lGLsF4wk0E=",
+		"/C/Users/daniel/Downloads/DuplRestTest/duplicati-b29ee3d732af4465699651c0ff54d30d1.dblock/zkh3QG4qdzwfYH0-1mLT54HUPg-gGFGxB3hqnQsPAzI=",
+		"/C/Users/daniel/Downloads/DuplRestTest/duplicati-i732347c0dc5941398a49181f6f224d28.dindex/manifest",
+		"/C/Users/daniel/Dropbox/Arbeitsleben/Bewerbungen/Ferchau HWSW/toposens/infos",
+		"/C/Users/daniel/Desktop/bugreport-2017-12-28-12-40-30.txt",
+		"/C/Users/daniel/Documents/download_chapters_js"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "covid19sim/covid19sim.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 152,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								150,
+								150
+							]
+						],
+						"settings":
+						{
+							"SL.38.region_keys":
+							[
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": ".flake8",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 28,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								28,
+								28
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": ".gitignore",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1799,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"SL.39.region_keys":
+							[
+							],
+							"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 40.6666666667
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.diagnostics":
+	{
+		"height": 233.0
+	},
+	"output.exec":
+	{
+		"height": 315.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.references":
+	{
+		"height": 166.0
+	},
+	"pinned_build_system": "",
+	"project": "covid19sim.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"settst",
+				"PxKeystrokesWPF\\SettingsStore.cs"
+			],
+			[
+				"setd",
+				"PxKeystrokesUi\\Settings.Designer.cs"
+			],
+			[
+				"ap",
+				"PxKeystrokesUi\\App.config"
+			],
+			[
+				"but",
+				"PxKeystrokesUi\\ButtonIndicator.cs"
+			],
+			[
+				"imag",
+				"PxKeystrokesUi\\ImageResources.cs"
+			],
+			[
+				"app",
+				"PxKeystrokesUi\\App.config"
+			],
+			[
+				"manif",
+				"PxKeystrokesUi\\Properties\\app.manifest"
+			],
+			[
+				".gii",
+				".gitignore"
+			],
+			[
+				"filei",
+				"src\\fileinfo.rs"
+			],
+			[
+				"file",
+				"src\\fileinfo.rs"
+			],
+			[
+				"filein",
+				"src\\fileinfo.rs"
+			],
+			[
+				"mai",
+				"src\\main.rs"
+			],
+			[
+				"man",
+				"src\\main.rs"
+			],
+			[
+				"car",
+				"Cargo.toml"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 329.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
